@@ -24,7 +24,7 @@ A final year engineering project that transforms a TurtleBot3 Burger into an aut
 - **Push Notifications** — Firebase Cloud Messaging delivers alerts when bowl is low/empty or pet is not detected
 - **Live Camera Stream** — MJPEG stream served via FastAPI with optional AI annotation overlay
 - **Remote Control** — Teleoperation via rosbridge WebSocket connection
-- **Battery Monitoring** — Patrol automatically stops when battery drops below 35%
+- **Battery Monitoring** — Patrol automatically stops when battery drops below 25%
 - **Emergency Stop** — Immediate halt of all navigation from the mobile app
 
 ---
@@ -57,13 +57,13 @@ Intelligent-Robotic-Pet-Caretaker/
 
 ---
 
-## Hardware Requirements
+## Hardware Components
 
 - TurtleBot3 Burger
-- Raspberry Pi 3B
-- OpenCR 1.0
-- LDS-01 LiDAR
-- Pi Camera V2
+  - Raspberry Pi 3B
+  - OpenCR 1.0
+  - LDS-01 LiDAR
+  - Pi Camera V2
 - Remote PC with Ubuntu 24.04 and Nvidia GPU
 - Android smartphone
 
